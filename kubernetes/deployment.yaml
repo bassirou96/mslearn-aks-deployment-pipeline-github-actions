@@ -12,7 +12,7 @@ spec:
         app: contoso-website
     spec:
       containers:
-        - image: !IMAGE!
+        - image: contosocontainerregistry30664.azurecr.io
           name: contoso-website
           resources:
             requests:
